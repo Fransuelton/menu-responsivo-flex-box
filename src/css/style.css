@@ -1,77 +1,52 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 60px 45px 0px 45px;
+    padding: 45px;
 }
 
-.header .logo {
+.logo {
     display: flex;
     align-items: center;
 }
 
-.header .logo .title {
-    font-weight: 800;
-    font-size: 20px;
+.logo h1 {
+    font-size: 2rem;
+    margin-left: 5px;
 }
 
-.header .menu {
+.menu {
     display: flex;
+    align-items: center;
     font-size: 15px;
     font-weight: 400;
 }
 
-.header .menu li {
-    padding: 0px 30px;
+.menu li a {
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+    margin: 1.5rem;
+    font-size: 1.5rem;
 }
 
-.header .menu .link {
-    color: #000000;
-}
-
-.header .menu .link:hover {
+.menu li a:hover {
     background-color: #5BC241;
-    padding: 11px 7px 11px 6px;
-    color: #ffffff;
-    transition: 0.2s ease-in-out;
+    color: #FFFFFF;
 }
 
-.header .menu .button {
-    padding: 10px 21px 11px 21px;
-    border-radius: 10px;
-    font-weight: 300;
+.menu li a.btn {
     background-color: #5BC241;
-    color: #ffffff;
-}
-
-@media(max-width: 576px) {
-    .header {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .header .logo .title {
-        font-weight: 800;
-        font-size: 40px;
-    }
-
-    .header .menu {
-        display: block;
-        text-align: center;
-        font-size: 40px;
-    }
-
-    .header .menu li {
-        margin-top: 45px;
-    }
-
-    .header .menu .button {
-        font-size: 18px;
-        padding: 15px 15px 22px 23px;
-    }
+    border-radius: 1rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    padding: 10px 20px;
 }
