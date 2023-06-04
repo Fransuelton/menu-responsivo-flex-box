@@ -1,4 +1,4 @@
-# Menu Responsivo com Flex-box
+# Exercícios CSS Avançado Flexbox - Menu com flexbox
 
 ## Sobre o Projeto
 
